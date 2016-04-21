@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class DateFormatClass implements Runnable {
 
-	String format = null;
+	
 	ThreadLocal<SimpleDateFormat> simpleDateLocal = new ThreadLocal<SimpleDateFormat>() {
 		protected SimpleDateFormat initialValue() {
 			return new SimpleDateFormat("yyyyMMdd-HH:mm");
