@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class NormalThread implements Runnable {
 
-	String format = null;
+	
 	SimpleDateFormat simpleDateLocal = new SimpleDateFormat("yyyyMMdd-HH:mm");
 
 	@Override
